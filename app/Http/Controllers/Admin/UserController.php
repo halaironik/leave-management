@@ -27,7 +27,7 @@ class UserController extends Controller
     public function index()
     {
         $users = User::all();
-        return view('admin.user_management', ['users' => $users]);
+        return view('admin.employee_management', ['users' => $users]);
     }
 
     /**
@@ -35,7 +35,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        return view('admin.add_user');
+        return view('admin.add_employee');
     }
 
     /**
@@ -88,7 +88,7 @@ class UserController extends Controller
     {
         $user = User::findorFail($id);
 
-        return view('admin.edit_user_form', ['user' => $user]);
+        return view('admin.edit_employee_form', ['user' => $user]);
     }
 
     /**

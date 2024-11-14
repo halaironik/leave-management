@@ -36,7 +36,7 @@
                             {{ __('Dashboard') }}
                         </x-nav-link>
                         <x-nav-link :href="route('admin.user.index')" :active="request()->routeIs('admin.user.index')">
-                            {{ __('Manage Users') }}
+                            {{ __('Manage Employees') }}
                         </x-nav-link>
                     @endrole
                 </div>
@@ -115,7 +115,7 @@
                     {{ __('Dashboard') }}
                 </x-responsive-nav-link>
                 <x-responsive-nav-link :href="route('admin.user.index')" :active="request()->routeIs('admin.user.index')">
-                    {{ __('Manage Users') }}
+                    {{ __('Manage Employees') }}
                 </x-responsive-nav-link>
             @endrole
         </div>

@@ -5,7 +5,7 @@
 <table class="min-w-full bg-white border border-gray-300">
     <thead>
         <tr>
-            <th class="px-4 py-2 border-b text-start">User Name</th>
+            <th class="px-4 py-2 border-b text-start">Employee Name</th>
             <th class="px-4 py-2 border-b text-start">Start Date</th>
             <th class="px-4 py-2 border-b text-start">End Date</th>
             <th class="px-4 py-2 border-b text-start">Reason</th>
